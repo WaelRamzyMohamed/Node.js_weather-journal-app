@@ -1,0 +1,125 @@
+body {
+    min-height: 100vh;
+    font-family: 'Mukta Malar', Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F5F9FF;
+    }
+
+#app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.holder{
+    border-radius: 5px;
+    background-color: #cbd8db;
+    width: 500px;
+}
+
+.feel, .zip, .entry {
+    margin-top: 20px;
+}
+
+#entryHolder{
+    background-color: #cbd8db;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#date{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#temp{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#content{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.headline {
+    text-align: center;
+    font-size: 26px;
+}
+.title{
+    font-size: 18px;
+}
+
+label{
+    display:block;
+    font-size: 18px;
+}
+
+input{
+    display:block;
+    height: 30px;
+    width: 320px;
+    background:#ffffff;
+    color: #01081f;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background: #5e69ce;
+    color: #f8f8f5;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 2px 4px 5px #faf7f7;
+    margin: 20px;
+}
+
+h1{
+    font-size: 28px;
+}
+
+textarea{
+    background:#ffffff;
+    color: #01081f;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */
+    color: #01081f;
+    font-family: 'Oswald', sans-serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #01081f;
+    font-family: 'Oswald', sans-serif;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #01081f;
+    font-family: 'Oswald', sans-serif;
+}
